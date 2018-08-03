@@ -6,6 +6,9 @@ class Dog
     @breed = breed
   end
 
+  def self.create
+  end
+
 
 
 end
