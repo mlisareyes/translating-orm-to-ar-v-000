@@ -1,11 +1,11 @@
 class Dog
+  attr_accessor :name, :breed
 
-attr_accessor :name, :breed
+  def initialize
+    @name = name
+    @breed = breed
+  end
 
-def initialize
-  @name = name
-  @breed = breed
-end
 
 
 end
